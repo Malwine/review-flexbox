@@ -1,0 +1,24 @@
+.box {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+.box1 { background: pink;}
+.box2 { background: rgb(233, 77, 129);}
+.box3 { background: hotpink;}
+.box4 { background: rgb(255, 225, 0);}
+.box5 { background: rgb(149, 232, 24);}
+.box6 { background: rgb(25, 197, 25);}
+.box7 { background: rgb(25, 224, 224);}
+.box8 { background: violet;}
+.box9 { background: purple;}
+.box10 { background: rgb(102, 5, 101);}
+
+.container {
+  display: flex;
+  border: 10px solid goldenrod;
+  height: 100vh;
+}
