@@ -8,7 +8,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .box {
   color: white;
-  font-size: 30px;
+  font-size: 100px;
   text-align: center;
   text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
   padding: 10px;
@@ -27,7 +27,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .container {
   display: flex;
+  height: 100vh;
+  align-content: center;
   justify-content: center;
-  flex-direction: column;
-  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 33.33333%;
 }
